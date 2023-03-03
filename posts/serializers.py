@@ -2,7 +2,7 @@ from rest_framework import serializers
 from .models import Post,Upvote,Comment
 
 class PostSerializer(serializers.ModelSerializer):
-    user = seializers.ReadOnlyField(source='user.username')
+    user = serializers.ReadOnlyField(source='user.username')
     class Meta:
         model = Post
         fields = ('id', 'title', 'body', 'created', 'updated', 'user', 'upvote_count')
