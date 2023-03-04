@@ -14,3 +14,25 @@
 5.Seeing the blog posts written by a specific user. [authenticated users ]</br>
 6.Upvoting the post.</br>
 7.Adding a comment on the post. [authenticated users ]</br>
+
+
+
+## Built With
+
+```
+Django==4.1.3
+django-cors-headers==3.14.0
+django-js-asset==2.0.0
+django-rest-knox==4.2.0
+django-taggit==3.1.0
+djangorestframework==3.14.0
+djangorestframework-simplejwt==5.2.2
+Pillow==9.4.0
+PyJWT==2.6.0
+```
+
+
+
+
+
+
