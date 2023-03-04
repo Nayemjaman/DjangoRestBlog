@@ -7,10 +7,10 @@
 
 
 ## Key Features 
-1.Seeing all the blog posts
-2.Creating a new blog post[authenticated users ]
-3.Editing a blog post written by that particular user[authenticated users ]
-4.Deleting a blog post written by that particular user[authenticated users ]
-5.Seeing the blog posts written by a specific user[authenticated users ]
-6.Upvoting the post
-7.Adding a comment on the post[authenticated users ]
+1.Seeing all the blog posts</br>
+2.Creating a new blog post[authenticated users ]</br>
+3.Editing a blog post written by that particular user[authenticated users ]</br>
+4.Deleting a blog post written by that particular user[authenticated users ]</br>
+5.Seeing the blog posts written by a specific user[authenticated users ]</br>
+6.Upvoting the post</br>
+7.Adding a comment on the post[authenticated users ]</br>
