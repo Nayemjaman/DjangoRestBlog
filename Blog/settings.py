@@ -32,6 +32,7 @@ Custom_apps = [
     'posts',
     'users',
     'rest_framework',
+    'rest_framework.authtoken',
     'corsheaders',
     'rest_framework_simplejwt',
     "rest_framework_simplejwt.token_blacklist",
@@ -110,6 +111,8 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
+AUTH_USER_MODEL="users.User"
+ACCOUNT_UNIQUE_EMAIL=True
 
 # Internationalization
 # https://docs.djangoproject.com/en/4.1/topics/i18n/
