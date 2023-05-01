@@ -13,7 +13,7 @@ class User(AbstractUser):
     is_staff = models.BooleanField(default=False)
 
 
-    def __str__(self) -> str: 	return self.user.username
+    def __str__(self) -> str: 	return self.username
 
 @receiver(post_save, sender=settings.AUTH_USER_MODEL)# For when a user is created.
 def create_auth_token(sender,instance=None,created=False,**kwags):
@@ -24,7 +24,7 @@ class Member(models.Model):
     user = models.OneToOneField(User, on_delete= models.CASCADE, related_name='members') 
     gmail = models.EmailField(max_length=50, blank=True)
 
-    def __str__(self) -> str: 	return self.user.username
+    def __str__(self) -> str: 	return self.username
 
 
 
@@ -33,14 +33,14 @@ class Creator(models.Model):
     gmail = models.EmailField(max_length=50, blank=True)
     joined_date = models.DateTimeField(auto_now_add=True) 
 
-    def __str__(self) -> str: 	return self.user.username
+    def __str__(self) -> str: 	return self.username
 
 class Staff(models.Model):
     user = models.OneToOneField(User, on_delete= models.CASCADE, related_name='staffs')
     gmail = models.EmailField(max_length=50, blank=True)
     joined_date = models.DateTimeField(auto_now_add=True) 
         
-    def __str__(self) -> str: 	return self.user.username	
+    def __str__(self) -> str: 	return self.username	
 
 
 

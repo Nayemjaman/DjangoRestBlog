@@ -20,6 +20,10 @@ from django.urls import path, include
 from posts import urls as posts_urls
 from users.api import urls
 from drf_spectacular.views import SpectacularAPIView, SpectacularSwaggerView
+admin.site.site_header = 'Admin Customization For Blog Web Apps'
+#Add the below line
+admin.site.index_title = 'Customization Web Apps'
+
 urlpatterns = [
     path("admin/", admin.site.urls),
     path("api-auth/", include("rest_framework.urls", namespace="rest_framework")),
@@ -27,7 +31,7 @@ urlpatterns = [
     path("api/", include(urls)),
     path("schema/", SpectacularAPIView.as_view(), name="schema"),
     path(
-        "docs/",
+        "",
         SpectacularSwaggerView.as_view(
             template_name="swagger-ui.html", url_name="schema"
         ),
