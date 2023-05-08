@@ -14,6 +14,7 @@ Welcome to the DjangoRestBlog repository!
 3. Implement CRUD operations for blog posts by a particular user, </br>
 4. Implement features for user interaction with blog posts, including upvoting posts and adding comments. </br>
 5. Multiple User. </br>
+6. Swagger UI.</br>
 
 
 
@@ -52,6 +53,11 @@ Docker Pull Command
  ``` 
 docker pull nayemjaman/djangorestblog
  ```
+
+### Swagger UI
+Swagger UI is a popular tool for documenting and testing APIs. It provides a user-friendly interface that allows developers to quickly explore and understand the functionality of an API. In a Django Rest Framework project, using Swagger UI can enhance the documentation and testing of the API, making it easier for developers to interact with the API and ensuring that the API meets the project requirements. Additionally, Swagger UI can simplify the integration of the API with other services, as the documentation provided by Swagger can help other developers understand how to consume the API.
+
+![Screenshot (159)](https://user-images.githubusercontent.com/40755491/236793377-7ebd8cf1-996d-477b-8523-32a3bbba7810.png)
 
 ### Why Django Rest Framework?
 For creating web APIs, Django Rest Framework (DRF) is a potent tool. 
