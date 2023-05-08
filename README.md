@@ -1,4 +1,4 @@
-# API for a blog website with django rest fremwork.
+# Dckerize a blog API Implementing Multiple User Type Registration using Django rest-auth.
 
 ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)
 ![HTML and CSS](https://img.shields.io/badge/HTML%20and-CSS-1f425f.svg)
@@ -8,13 +8,12 @@
 Welcome to the DjangoRestBlog repository!
 
 ## Key Features 
-1.Seeing all the blog posts</br>
-2.Creating a new blog post. [authenticated users ]</br>
-3.Editing a blog post written by that particular user. [authenticated users ]</br>
-4.Deleting a blog post written by that particular user. [authenticated users ]</br>
-5.Seeing the blog posts written by a specific user. [authenticated users ]</br>
-6.Upvoting the post.</br>
-7.Adding a comment on the post. [authenticated users ]</br>
+1. Docker.
+2. Django rest fremwork</br>
+3. PostgreSQL for database.</br>
+3. Implement CRUD operations for blog posts by a particular user, </br>
+4. Implement features for user interaction with blog posts, including upvoting posts and adding comments. </br>
+5. Multiple User. </br>
 
 
 
@@ -22,17 +21,39 @@ Welcome to the DjangoRestBlog repository!
 
 ```
 Django==4.1.3
+django-ckeditor==6.5.1
 django-cors-headers==3.14.0
+django-environ==0.10.0
 django-js-asset==2.0.0
 django-rest-knox==4.2.0
 django-taggit==3.1.0
 djangorestframework==3.14.0
 djangorestframework-simplejwt==5.2.2
+drf-spectacular==0.26.2
 Pillow==9.4.0
+psycopg2-binary==2.9.6
 PyJWT==2.6.0
-```
 
-# Why Django Rest Framework?
+```
+## Requirements
+
+- Python
+- Django 
+- Django REST Framework 
+- PostgreSQL 
+- Docker 
+- Git 
+- .env 
+
+Docker hub
+      - https://hub.docker.com/r/nayemjaman/djangorestblog
+      
+Docker Pull Command
+ ``` 
+docker pull nayemjaman/djangorestblog
+ ```
+
+### Why Django Rest Framework?
 For creating web APIs, Django Rest Framework (DRF) is a potent tool. 
 It is constructed using the well-liked Django web framework. 
 It enables programmers to quickly develop APIs that can be used by a variety of clients, 
@@ -43,6 +64,19 @@ developers can concentrate on creating the logic for their applications rather t
 
 Users may test and use their APIs rapidly with DRF's browsable API interface, which it also offers. Debugging, troubleshooting, and providing documentation and examples to other developers who might be using the API can all be facilitated by doing this. Moreover, DRF provides a number of serialization options, enabling programmers to quickly return data in multiple formats like JSON or XML. Django Rest Framework is a useful tool for anyone trying to create solid and dependable web APIs in general.
 
+
+
+### Several reasons why I  want to dockerize a Django Rest Framework blog API:
+
+1. Portability: Dockerizing your API allows you to package it into a container that can be run on any machine that supports Docker, regardless of the underlying operating system or software installed. This makes it easier to deploy and run your API in different environments, such as development, staging, and production.
+
+2. Consistency: Docker provides a consistent runtime environment for my API, ensuring that it runs the same way every time, regardless of where it's deployed. This can help avoid issues caused by differences in the underlying software stack, such as different versions of Python or database drivers.
+
+3. Scalability: Docker makes it easy to scale your API horizontally by running multiple instances of the container on different machines or in a cluster. This can help to handle increased traffic or load without having to manually manage multiple instances of your API.
+
+4. Security: Docker provides a layer of isolation between API and the host operating system, which can help improve security by reducing the attack surface and limiting the impact of any vulnerabilities that may be present in code.
+
+Overall, dockerizing your Django Rest Framework blog API can make it easier to manage, deploy, and scale, while also improving consistency and security.
 
 
 
