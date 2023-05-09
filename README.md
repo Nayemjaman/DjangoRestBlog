@@ -6,16 +6,17 @@
 [![Open in Visual Studio Code](https://img.shields.io/static/v1?logo=visualstudiocode&label=&message=Open%20in%20Visual%20Studio%20Code&labelColor=2c2c32&color=007acc&logoColor=007acc)](https://github.dev/Nayemjaman/DjangoRestBlog)
 </hr>
 
-Dockerize a blog API Implementing Multiple User Type Registration using Django rest-auth.
+Welcome to the codingbrunch repository! In this project, I build a blog website with Django Rest Framework, PostgreSQL, Docker, and Swagger UI(API documentation) . Where register users can post, comment and upvote.
 
 ## Key Features 
-1. Docker.
+1. Docker.</br>
 2. Django rest fremwork</br>
 3. PostgreSQL for database.</br>
 3. Implement CRUD operations for blog posts by a particular user, </br>
 4. Implement features for user interaction with blog posts, including upvoting posts and adding comments. </br>
-5. Multiple User. </br>
-6. Swagger UI.</br>
+5. Customized admin panel. </br>
+6. Multiple User. </br>
+7. Swagger UI.</br>
 
 
 
