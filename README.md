@@ -9,14 +9,11 @@
 Welcome to the codingbrunch repository! In this project, I build a blog website with Django Rest Framework, PostgreSQL, Docker, and Swagger UI(API documentation) where register users can post, comment and upvote.
 
 ## Key Features 
-1. Docker.</br>
-2. Django rest fremwork</br>
-3. PostgreSQL for database.</br>
-3. Implement CRUD operations for blog posts by a particular user, </br>
-4. Implement features for user interaction with blog posts, including upvoting posts and adding comments. </br>
-5. Customized admin panel. </br>
-6. Multiple User. </br>
-7. Swagger UI.</br>
+1. Implement CRUD operations for blog posts by a particular user, </br>
+2. Implement features for user interaction with blog posts, including upvoting posts and adding comments. </br>
+3. Customized admin panel. </br>
+4. Multiple User. </br>
+6. Swagger UI.</br>
 
 
 
@@ -38,15 +35,7 @@ psycopg2-binary==2.9.6
 PyJWT==2.6.0
 
 ```
-## Requirements
 
-- Python
-- Django 
-- Django REST Framework 
-- PostgreSQL 
-- Docker 
-- Git 
-- .env 
 
 Docker hub
       - https://hub.docker.com/r/nayemjaman/djangorestblog
