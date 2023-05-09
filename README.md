@@ -6,7 +6,7 @@
 [![Open in Visual Studio Code](https://img.shields.io/static/v1?logo=visualstudiocode&label=&message=Open%20in%20Visual%20Studio%20Code&labelColor=2c2c32&color=007acc&logoColor=007acc)](https://github.dev/Nayemjaman/DjangoRestBlog)
 </hr>
 
-Welcome to the codingbrunch repository! In this project, I build a blog website with Django Rest Framework, PostgreSQL, Docker, and Swagger UI(API documentation) . Where register users can post, comment and upvote.
+Welcome to the codingbrunch repository! In this project, I build a blog website with Django Rest Framework, PostgreSQL, Docker, and Swagger UI(API documentation) where register users can post, comment and upvote.
 
 ## Key Features 
 1. Docker.</br>
