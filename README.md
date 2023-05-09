@@ -9,8 +9,8 @@
 Welcome to the codingbrunch repository! In this project, I build a blog website with Django Rest Framework, PostgreSQL, Docker, and Swagger UI(API documentation) where register users can post, comment and upvote.
 
 ## Key Features 
-1. Implement CRUD operations for blog posts by a particular user, </br>
-2. Implement features for user interaction with blog posts, including upvoting posts and adding comments. </br>
+1. Implemented CRUD operations for blog posts by a particular user, </br>
+2. Implemented features for user interaction with blog posts, including upvoting posts and adding comments. </br>
 3. Customized admin panel. </br>
 4. Multiple User.(Member, Creator, Staff, Admin) </br>
 
